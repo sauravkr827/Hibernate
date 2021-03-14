@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2efaf20d-bfd2-484b-af36-60c32376be1b" name="Default Changelist" comment="" />
+    <list default="true" id="2efaf20d-bfd2-484b-af36-60c32376be1b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,6 +31,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1pcYEi2GDxGWqF0leWhPweUk9TE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -58,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OneToOneMainClass1">
+  <component name="RunManager" selected="Application.LifeCycleMainMethod">
     <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.saurav.App" />
       <module name="SpringHybernate1" />
@@ -66,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.saurav.EmbededExample.AppMain" />
+    <configuration name="AppMainMethoClass1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.saurav.fetchTypeLazyAndEgger.AppMainMethoClass1" />
       <module name="SpringHybernate1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.saurav.EmbededExample.*" />
+          <option name="PATTERN" value="com.saurav.fetchTypeLazyAndEgger.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +89,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FetcthDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.saurav.GetAndLoadExample.FetcthDemo" />
+    <configuration name="LifeCycleMainMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.saurav.LifeCycleOfHibernate.LifeCycleMainMethod" />
       <module name="SpringHybernate1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.saurav.GetAndLoadExample.*" />
+          <option name="PATTERN" value="com.saurav.LifeCycleOfHibernate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MappingMainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.saurav.ManyToManyRelation.MappingMainClass" />
+      <module name="SpringHybernate1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saurav.ManyToManyRelation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,10 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LifeCycleMainMethod" />
+        <item itemvalue="Application.AppMainMethoClass1" />
+        <item itemvalue="Application.MappingMainClass" />
         <item itemvalue="Application.OneToOneMainClass1" />
         <item itemvalue="Application.OneToOneMainClass" />
-        <item itemvalue="Application.AppMain" />
-        <item itemvalue="Application.FetcthDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -139,12 +163,23 @@
       <updated>1615483735503</updated>
       <workItem from="1615483738936" duration="2377000" />
       <workItem from="1615565376915" duration="7912000" />
-      <workItem from="1615612588814" duration="9865000" />
+      <workItem from="1615612588814" duration="21480000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
